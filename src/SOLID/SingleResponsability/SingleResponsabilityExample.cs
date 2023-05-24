@@ -5,8 +5,12 @@ namespace SOLID.SingleResponsability
 {
     public static class SingleResponsabilityExample
     {
+        private static string Title = "Single Responsability Principle";
+
         public static void Execute()
         {
+            Console.WriteLine($"*** Start: {Title} ***\n");
+
             // Bad
             var badJournal = new BadJournal();
             badJournal.AddEntry("I have studied some new bad language");
@@ -27,6 +31,7 @@ namespace SOLID.SingleResponsability
             Console.WriteLine(journal);
             Process.Start(new ProcessStartInfo("cmd", $"/c start {filename}"));
 
+            Console.WriteLine($"\n*** End: {Title} ***\n");
             Console.ReadKey();
         }
     }

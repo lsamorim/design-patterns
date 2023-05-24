@@ -3,7 +3,7 @@ using SOLID.OpenClosed;
 using SOLID.SingleResponsability;
 
 // S - Single Responsability Principle
-SingleResponsabilityExample.Execute();
+// SingleResponsabilityExample.Execute();
 
 // O - Open Closed Principle
 OpenClosedExample.Execute();

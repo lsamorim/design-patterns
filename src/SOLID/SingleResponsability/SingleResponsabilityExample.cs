@@ -11,6 +11,7 @@ namespace SOLID.SingleResponsability
             Console.WriteLine($"*** Start: {Title} ***\n");
 
             // Bad
+            Console.WriteLine($"** Bad approach **\n");
             var badJournal = new BadJournal();
             badJournal.AddEntry("I have studied some new bad language");
             badJournal.AddEntry("I took a walk with my dog");
@@ -19,7 +20,10 @@ namespace SOLID.SingleResponsability
             badJournal.Save(badFilename);
             Console.WriteLine(badJournal);
 
+            Console.ReadKey();
+
             // Good
+            Console.WriteLine($"\n** Good approach **\n");
             var journal = new Journal();
             journal.AddEntry("I have studied some new language");
             journal.AddEntry("I took a walk with my two dogs");

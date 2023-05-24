@@ -37,6 +37,8 @@
                 Console.WriteLine($" - {product.Name} is Red and Large");
             }
 
+            Console.ReadKey();
+
             // Good
             Console.WriteLine($"\n** Good approach **\n");
             var filter = new ProductFilter();

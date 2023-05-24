@@ -21,6 +21,8 @@
             Console.WriteLine($"{badRectange} has area {Area(badRectange)}");
             Console.WriteLine($"{badSquare} has area {Area(badSquare)}");
 
+            Console.ReadKey();
+
             // Good
             Console.WriteLine($"\n** Good approach **\n");
             Rectangle rectange = new Rectangle()

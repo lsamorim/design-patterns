@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using SOLID.OpenClosed;
 using SOLID.SingleResponsability;
 
-Console.WriteLine("Hello, World!");
+// S - Single Responsability Principle
+SingleResponsabilityExample.Execute();
 
-// S - Single Responsability
-SingleResponsabilityExemple.Execute();
+// O - Open Closed Principle
+OpenClosedExample.Execute();

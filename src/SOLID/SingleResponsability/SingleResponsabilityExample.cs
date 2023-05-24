@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace SOLID.SingleResponsability
 {
-    public static class SingleResponsabilityExemple
+    public static class SingleResponsabilityExample
     {
         public static void Execute()
         {
@@ -26,6 +26,8 @@ namespace SOLID.SingleResponsability
             journalPersistence.Save(journal, filename, true);
             Console.WriteLine(journal);
             Process.Start(new ProcessStartInfo("cmd", $"/c start {filename}"));
+
+            Console.ReadKey();
         }
     }
 }

@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{5B0B9413-0E1B-4C67-ADEE-26A52AB40028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{5B0B9413-0E1B-4C67-ADEE-26A52AB40028}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - SOLID Design Principles", "01 - SOLID Design Principles", "{ECD3CE25-3B29-46D5-8A53-B1215A2D7751}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Creational Design Patterns", "02 - Creational Design Patterns", "{C8F70B5C-3EF6-400E-B824-0DDAD59DED71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns", "CreationalDesignPatterns\CreationalDesignPatterns.csproj", "{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{5B0B9413-0E1B-4C67-ADEE-26A52AB40028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B0B9413-0E1B-4C67-ADEE-26A52AB40028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B0B9413-0E1B-4C67-ADEE-26A52AB40028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5B0B9413-0E1B-4C67-ADEE-26A52AB40028} = {ECD3CE25-3B29-46D5-8A53-B1215A2D7751}
+		{D14413E2-E6D0-44D2-B8C4-AB3FFB5EB75F} = {C8F70B5C-3EF6-400E-B824-0DDAD59DED71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {650BD743-908D-4CAE-B139-16B56B252D7F}

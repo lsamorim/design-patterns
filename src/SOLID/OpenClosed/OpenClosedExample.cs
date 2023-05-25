@@ -2,7 +2,7 @@
 {
     public class OpenClosedExample
     {
-        private static string Title = "Open Closed Principle";
+        public static string Title = "Open Closed Principle";
 
         public static void Execute()
         {

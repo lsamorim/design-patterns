@@ -2,7 +2,7 @@
 {
     public static class LiskovSubstitutionExample
     {
-        private static string Title = "Liskov Substitution Principle";
+        public static string Title = "Liskov Substitution Principle";
 
         public static void Execute()
         {

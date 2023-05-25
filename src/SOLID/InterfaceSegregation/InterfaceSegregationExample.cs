@@ -2,7 +2,7 @@
 {
     public static class InterfaceSegregationExample
     {
-        private static string Title = "Interface Segregation Principle";
+        public static string Title = "Interface Segregation Principle";
 
         public static void Execute()
         {

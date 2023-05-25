@@ -4,7 +4,7 @@ namespace SOLID.SingleResponsability
 {
     public static class SingleResponsabilityExample
     {
-        private static string Title = "Single Responsability Principle";
+        public static string Title = "Single Responsability Principle";
 
         public static void Execute()
         {

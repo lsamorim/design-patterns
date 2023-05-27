@@ -1,10 +1,10 @@
 ﻿using System.Text;
 
-namespace CreationalDesignPatterns.Builder
+namespace CreationalDesignPatterns.FluentBuilder
 {
-    public class BuilderExample
+    public class FluentBuilderExample
     {
-        public static string Title = "Creational: Builder";
+        public static string Title = "Creational: Fluent Builder";
 
         public static void Execute()
         {

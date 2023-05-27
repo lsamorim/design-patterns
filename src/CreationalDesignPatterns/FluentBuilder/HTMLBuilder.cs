@@ -1,4 +1,4 @@
-﻿namespace CreationalDesignPatterns.Builder
+﻿namespace CreationalDesignPatterns.FluentBuilder
 {
     public class HTMLBuilder
     {

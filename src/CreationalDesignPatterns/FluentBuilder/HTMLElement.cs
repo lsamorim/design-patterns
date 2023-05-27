@@ -1,11 +1,11 @@
 ﻿using System.Text;
 
-namespace CreationalDesignPatterns.Builder
+namespace CreationalDesignPatterns.FluentBuilder
 {
     public class HTMLElement
     {
-        public string? Name { get; set; }
-        public string? Text { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Text { get; set; } = string.Empty;
 
         public List<HTMLElement> Children { get; set; } = new List<HTMLElement>();
 

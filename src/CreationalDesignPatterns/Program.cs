@@ -1,14 +1,21 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CreationalDesignPatterns;
-using CreationalDesignPatterns.Builder;
+using CreationalDesignPatterns.FluentBuilder;
+using CreationalDesignPatterns.FluentBuilderInheritanceRecursive;
 
 var options = new List<Option>
 {
     new Option()
     {
-        Text = $"0 - {BuilderExample.Title}",
+        Text = $"0 - {FluentBuilderExample.Title}",
         Key = ConsoleKey.NumPad0,
-        Execute = BuilderExample.Execute
+        Execute = FluentBuilderExample.Execute
+    },
+    new Option()
+    {
+        Text = $"1 - {FluentBuilderInheritanceRecursiveExample.Title}",
+        Key = ConsoleKey.NumPad1,
+        Execute = FluentBuilderInheritanceRecursiveExample.Execute
     },
 };
 

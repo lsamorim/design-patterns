@@ -4,8 +4,8 @@ namespace CreationalDesignPatterns.Builder
 {
     public class HTMLElement
     {
-        public string Name { get; set; }
-        public string Text { get; set; }
+        public string? Name { get; set; }
+        public string? Text { get; set; }
 
         public List<HTMLElement> Children { get; set; } = new List<HTMLElement>();
 

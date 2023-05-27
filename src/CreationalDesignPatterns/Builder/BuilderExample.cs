@@ -27,11 +27,9 @@ namespace CreationalDesignPatterns.Builder
 
             // Good
             Console.WriteLine($"\n** Good approach **\n");
-            var htmlBuilder = new HTMLBuilder("ul");
-            foreach(var word in words)
-            {
-                htmlBuilder.AddChild("li", word);
-            }
+            var htmlBuilder = new HTMLBuilder("ul")
+                .AddChild("li", "hello")
+                .AddChild("li", "world");
             Console.WriteLine(htmlBuilder.ToString());
 
             Console.WriteLine($"\n*** End: {Title} ***\n");

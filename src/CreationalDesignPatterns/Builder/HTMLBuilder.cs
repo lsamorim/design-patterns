@@ -14,7 +14,7 @@
             };
         }
 
-        public void AddChild(string name, string text)
+        public HTMLBuilder AddChild(string name, string text)
         {
             var element = new HTMLElement()
             {
@@ -22,6 +22,8 @@
                 Name = name
             };
             _rootElement.Children.Add(element);
+
+            return this;
         }
 
         public void Clear()

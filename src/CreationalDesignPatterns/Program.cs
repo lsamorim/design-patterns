@@ -7,7 +7,7 @@ var options = new List<Option>
     new Option()
     {
         Text = $"0 - {BuilderExample.Title}",
-        Key = ConsoleKey.D0,
+        Key = ConsoleKey.NumPad0,
         Execute = BuilderExample.Execute
     },
 };
